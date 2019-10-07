@@ -22,6 +22,7 @@ Route::post('upload',function ()
         's3'
     );
 return back();
+
 })->name('upload');
 
 Auth::routes();
